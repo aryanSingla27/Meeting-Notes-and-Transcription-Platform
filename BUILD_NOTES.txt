@@ -1,0 +1,9 @@
+Rebuild notes:
+- Added valid Next.js root html/body layout.
+- Replaced dead sidebar links with dedicated Meetings, Channels, Analytics and Settings routes.
+- Added profile dropdown, notification dropdown, theme provider and persistent light/dark CSS theme.
+- Wired dashboard URL search and actual date-filtered rows.
+- Added analytics derived from persisted meeting data.
+- Added clear integration placeholders.
+- Python syntax validation passed; FastAPI smoke test returned health 200, six seeded meetings and meeting detail 200.
+- Frontend package install/build could not be run here without downloading npm dependencies. Run npm install and npm run build locally before final submission.
